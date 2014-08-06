@@ -1,19 +1,23 @@
-Piraten-Tools
+Piraten-Tools / Wikiimport
 =================================================
-Sammlung von Wordpress-Plugins für die Homepage der Göppinger Piraten
+Von einer externen Website kann der Inhalt eines div-Containers mit bekannter ID ausgelesen und ausgegeben werden.
+Dadurch kann man zum Beispiel automatisiert die Tagesordnung des nÃ¤chsten Stammtischs aus dem Piratenwiki ausgeben.
+(Anleitung tbd)
 
-Version 1.4.2, 09.07.2014
+Info: Das Originalprojekt "Piraten-Tools" wurde in die einzelnen Module aufgespaltet. Ein Upgrade dÃ¼rfte ohne Datenverlust mÃ¶glich sein, einfach das alte Plugin deaktivieren und die neuen Plugins installieren und aktivieren.
+
+Version 1.0.0, 06.08.2014
 
 Autor: @stoppegp
 Lizenz: CC-BY-SA 3.0, http://creativecommons.org/licenses/by-sa/3.0/de/deed.de
 
-Github: https://github.com/stoppegp/Piraten-Tools
-
-Benutzte Bibliotheken:
-- SG_iCalReader (Morten Fangel, xonev, Tanguy Pruvot): http://github.com/fangel/SG-iCalendar
-
+Github: https://github.com/PiratenGP/PT_wikiimport
 
 Changelog:
+= 06.08.2014 - v1.0.0 =
+- Aufspaltung des Originalprojekts "Piraten-Tools"
+
+Changelog des Originalprojekts:
 = 09.07.2014 - v1.4.2 =
 -- Bugfix: Timezone crap
 = 29.06.2013 - v1.4.1 =
@@ -22,33 +26,21 @@ Changelog:
 -- Jetzt werden auch verschachtelte divs richtig verarbeitet
 -- relative URLs werden jetzt umgeschrieben, sodass sie richtig funktionieren
 = 23.03.2013 - v1.3.1 =
--- Wordaround: veränderte Termine
+-- Wordaround: verÃ¤nderte Termine
 = 16.03.2013 - v1.3.0 =
--- Kompatibilitätsprobleme gefixt
+-- KompatibilitÃ¤tsprobleme gefixt
 = 27.02.2013 - v1.2.2 =
--- BW-Api wieder rausgelöscht :D
+-- BW-Api wieder rausgelÃ¶scht :D
 = 27.02.2013 - v1.2.1 =
--- BW-Api hinzugefügt
--- ACHTUNG: Ab jetzt darf nicht mehr die vollständige Wiki-URL angegeben werden!
+-- BW-Api hinzugefÃ¼gt
+-- ACHTUNG: Ab jetzt darf nicht mehr die vollstÃ¤ndige Wiki-URL angegeben werden!
 = 27.02.2013 - v1.2.0 =
--- Auto-Aktualisieren beim Wiki-Import hinzugefügt
+-- Auto-Aktualisieren beim Wiki-Import hinzugefÃ¼gt
 -- Anpassungen bei der Anzeige
 = 25.01.2013 - v1.1.2 =
--- Anleitungen hinzugefügt
+-- Anleitungen hinzugefÃ¼gt
 -- Bugfix: Unerwartete Ausgabe
 = 22.01.2013 - v1.1.1 =
 -- Bugfix: Debug-Ausgabe entfernt
 = 22.01.2013 - v1.1.0 =
--- Next Piratentreff: Neues Feature: n Einträge bei der Suche überspringen ("skip")
-
-=================================================
-
-= Next Piratentreff =
-Aus einem iCal-Kalender wird der nächste Termin gesucht, der einen bestimmten Suchbegriff im Titel enthält. Das Ergebnis kann dann per Shortcode eingebaut werden.
-Dadurch kann man z.B. automatisiert den nächsten Stammtisch-Termin ausgeben.
-(Anleitung tbd)
-
-= Wiki Import =
-VOn einer externen Website kann der Inhalt eines div-Containers mit bekannter ID ausgelesen und ausgegeben werden.
-Dadurch kann man zum Beispiel automatisiert die Tagesordnung des nächsten Stammtischs aus dem Piratenwiki ausgeben.
-(Anleitung tbd)
+-- Next Piratentreff: Neues Feature: n EintrÃ¤ge bei der Suche Ã¼berspringen ("skip")
